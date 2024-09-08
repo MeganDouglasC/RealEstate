@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+</head>
+<body>
+    <div id="grid-container">
+        <header>
+            <h1>Find Your Dream Home in England</h1>
+        </header>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="#listings">Property Listings</a></li>
+                    <li><a href="#form">Add a Property</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>    
+        </div>
+
+        <section id="listings">
+            <h2>Available Properties</h2>
+            <div class="property">
+                <img src="https://compassresidential.co.uk/property/3-bed-house-for-sale-in-high-road-whetstone/515318"  alt="Property Image"
+                <h4> 3 Bedroom Apartment in London</h3>
+                <p>£650,000 | London | 3 Bedrooms | 2 Bathrooms</p>
+                <button>View Details</button>
+            </div>
+
+            <div class="property">
+                <img src="house2.jpg" alt="2 Bedroom Apartment in Manchester">
+                <h3>2 Bedroom Apartment in Manchester</h3>
+                <p>£250,000 | Manchester | 2 Bedrooms | 1 Bathroom</p>
+                <button>View Details</button>
+            </div>
+    
+            
+            <div class="property">
+                <img src="house3.jpg" alt="4 Bedroom Villa in Birmingham">
+                <h3>4 Bedroom Villa in Birmingham</h3>
+                <p>£650,000 | Birmingham | 4 Bedrooms | 3 Bathrooms</p>
+                <button>View Details</button>
+            </div>
+    
+            
+            <div class="property">
+                <img src="house4.jpg" alt="1 Bedroom Studio in Bristol">
+                <h3>1 Bedroom Studio in Bristol</h3>
+                <p>£150,000 | Bristol | 1 Bedroom | 1 Bathroom</p>
+                <button>View Details</button>
+            </div>
+    
+            
+            <div class="property">
+                <img src="house5.jpg" alt="5 Bedroom Mansion in Oxford">
+                <h3>5 Bedroom Mansion in Oxford</h3>
+                <p>£1,200,000 | Oxford | 5 Bedrooms | 4 Bathrooms</p>
+                <button>View Details</button>
+            </div>
+
+        </section>
+
+        <section id="form">
+            <h2>Add a New Property</h2>
+            <form action="#" method="POST">
+                <label for="title">Property Title:</label>
+                <input type="text" id="title" name="title" required>
+    
+                <label for="price">Price (£):</label>
+                <input type="number" id="price" name="price" required>
+    
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+    
+                <label for="bedrooms">Bedrooms:</label>
+                <input type="number" id="bedrooms" name="bedrooms" required>
+    
+                <label for="bathrooms">Bathrooms:</label>
+                <input type="number" id="bathrooms" name="bathrooms" required>
+    
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+    
+                <label for="image">Property Image:</label>
+                <input type="file" id="image" name="image" accept="image/*">
+    
+                <button type="submit">Submit Property</button>
+            </form>
+        </section>
+    
+        <footer id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@realestateengland.com</p>
+            <p>Phone: 01234 567890</p>
+            <p>Address: 123 High Street, London, England</p>
+        </footer>
+    </body>
+    </html>
+    
+            
